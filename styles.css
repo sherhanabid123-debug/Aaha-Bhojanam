@@ -780,6 +780,12 @@ h2 {
         min-height: 100vh;
         background-attachment: scroll;
         /* Disable parallax on mobile for performance/smoothness */
+        padding-top: 100px;
+        /* Prevent header overlap */
+    }
+
+    .hero-content {
+        margin-top: 20px;
     }
 
     .hero-content h1 {
